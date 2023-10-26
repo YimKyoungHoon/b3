@@ -3,7 +3,7 @@ $(document).ready(function () {
     $("#gnb > li").on("mouseenter", function () {
         $(this).find("ul.sub").stop().slideDown();
     })
-    $("#gnb >li").on("mouseleave", function () {
+    $("#gnb > li").on("mouseleave", function () {
         $(this).find("ul.sub").stop().slideUp();
     })
     //popup
